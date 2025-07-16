@@ -1,0 +1,28 @@
+{
+  "app": {
+    "version": "1.0.6",
+    "download_url": "https://raw.githubusercontent.com/rriya0041/qts-updater/main/app-release.apk",
+    "force_update": false
+  },
+
+  "resources": [
+    {
+      "name": "Station_Data",
+      "url": "https://raw.githubusercontent.com/rriya0041/qts-updater/main/stations.txt",
+      "filename": "stations.txt",
+      "force_update": true
+    },
+    {
+      "name": "Font",
+      "url": "https://raw.githubusercontent.com/rriya0041/qts-updater/main/open_sans_regular.ttf",
+      "filename": "open_sans_regular.ttf",
+      "force_update": false
+    },
+    {
+      "name": "Train_Data",
+      "url": "https://raw.githubusercontent.com/rriya0041/qts-updater/main/trains.txt",
+      "filename": "trains.txt",
+      "force_update": false
+    }
+  ]
+}
